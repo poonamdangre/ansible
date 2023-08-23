@@ -4,5 +4,5 @@
  task:
  -name: my first task
    debug:
-     msg: "hello world"
+     msg: "hello worlds"
    
