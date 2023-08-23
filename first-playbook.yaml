@@ -1,8 +1,0 @@
-
--name: my first playbook
- hosts: all
- task:
- -name: my first task
-   debug:
-     msg: "hello worlds"
-   
