@@ -8,8 +8,7 @@
      msg: "{{URL}}"
  - name: say hello
    debug:
-    msg: "{{URL}}"
+     msg: "{{URL}}"
  - name: say how are you 
    debug: 
-    msg: "{{URL}}"
-    
+     msg: "{{URL}}"
