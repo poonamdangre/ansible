@@ -1,0 +1,15 @@
+- name: first playbook
+ hosts: all
+  vars:
+   URL: "global cloud"
+ tasks:
+ - name: say hi
+   debug:
+     msg: "{{URL}}"
+ - name: say hello
+   debug:
+    msg: "{{URL}}"
+ - name: say how are you 
+   debug: 
+    msg: "{{URL}}"
+    
