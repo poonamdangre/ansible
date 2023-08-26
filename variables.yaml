@@ -2,7 +2,7 @@
   hosts: all
   vars:
    URL: "global cloud"
-  vars_file:
+  vars-file:
    - ./vars.txt
   tasks:
   - name: say hi
