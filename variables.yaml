@@ -2,8 +2,9 @@
   hosts: all
   vars:
    URL: "global cloud"
-  vars_files:
-   - ./vars.txt
+  vars_prompt:
+   - name: URL
+   prompt: enter your variable value
   tasks:
   - name: say hi
     debug:
