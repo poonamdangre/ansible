@@ -2,10 +2,7 @@
   hosts: all
   vars:
    URL: "global cloud"
-  vars_prompt:
-   - name: URL
-     prompt: enter your variable value
-     private: false
+  
   tasks:
   - name: say hi
     debug:
