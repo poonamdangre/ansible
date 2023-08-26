@@ -13,4 +13,4 @@
     debug: 
      msg: "{{URL}}"
     vars:
-      URL: "local cloud"
+      URL: "local clouds"
