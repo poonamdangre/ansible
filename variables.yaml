@@ -9,7 +9,7 @@
   - name: say hello
     debug:
      msg: "{{URL}}"
-  - name: say how are you 
+  - name: say how are you !
     debug: 
      msg: "{{URL}}"
     vars:
