@@ -4,4 +4,6 @@
   - name: gethost
     shell: hostname
     register: URL
-    
+  - name: print hostname
+    debug:
+      msg: "{{URL}}"
