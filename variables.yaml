@@ -4,7 +4,7 @@
    URL: "global cloud"
   vars_prompt:
    - name: URL
-   prompt: enter your variable value
+     prompt: enter your variable value
   tasks:
   - name: say hi
     debug:
