@@ -1,7 +1,7 @@
 - name: first playbook
   hosts: all
-  vars:
-   URL: "global cloud"
+ # vars:
+ #  URL: "global cloud"
   
   tasks:
   - name: say hi
