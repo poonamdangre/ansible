@@ -2,6 +2,8 @@
   hosts: all
   vars:
    URL: "global cloud"
+  vars_file:
+   - ./vars.txt
   tasks:
   - name: say hi
     debug:
