@@ -2,8 +2,8 @@
   hosts: all
   tasks:
   - name: gethost
-    shell: hostname
+    shell: hostnam
     register: URL
   - name: print hostname
     debug:
-      msg: "{{URL.stdout}}"
+      msg: "hello cloud"
