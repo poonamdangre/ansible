@@ -1,0 +1,7 @@
+- name: register value
+  hosts: all
+  tasks:
+  - name: gethost
+    shell: hostname
+    register: URL
+    
